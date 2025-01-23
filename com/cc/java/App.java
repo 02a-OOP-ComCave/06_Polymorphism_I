@@ -15,21 +15,8 @@ public class App {
         
     }
 
-  
-    // Overloading  --- gleiche M.-Name aber unterschiedliche P.-Struktur
-    private static void pollObj(Queen obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("-------------------");
-    }
-
-    private static void pollObj(Worker obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("-------------------");
-    }
-
-    private static void pollObj(Drone obj){
+    // 2. Iteration: Polymorphie
+    private static void pollObj(HoneyBee obj){
         output(obj.doYourJob());
         output(obj.fly());
         output("-------------------");
